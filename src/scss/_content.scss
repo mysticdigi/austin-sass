@@ -1,0 +1,38 @@
+.content {
+    width: 85%;
+    min-height: 750px;
+    min-width: 600px;
+    background-color: $primary-color;
+  
+    ul {
+        font-size: 1.25rem;
+        color: orange;
+        font-weight: bold;
+        list-style: square;
+    }
+    h1{
+        font-size: 3.75rem;
+    }
+    p{
+        width: 55%;
+        min-width: 550px;
+        font-size: 1.5rem;
+        color:orange;
+    }
+    img, video{
+        height: 350px;
+        width: 550px;
+        margin-bottom: 30px;
+    }
+    > * {
+        padding-left: 30px;
+      }
+      a:hover{
+        color:green;
+        text-decoration: underline;
+}
+    :link{
+    color: blue;
+    text-decoration: underline;
+    }
+}
